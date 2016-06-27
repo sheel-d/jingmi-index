@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+	<link rel="stylesheet" href="css/home/register.css">
+	<script src="js/home/register.js"></script>
+</head>
+<body>
+	<div id="header">
+		<p class="leftFloat other">
+			<span id="collect">☆ 收藏</span>
+			<span id="er_code"><img src="img/weixin.gif" alt="">二维码</span>
+			<a href="http://www.jingmi.date">静谧首页</a>
+		</p>
+		<div id="code"><img src="img/2_1.gif"></div>
+		<p class="login rightFloat" id="headp">
+			<span class="span">嗨，欢迎来到静谧网!</span>|
+			<span class="span1">个人中心</span>|
+			<span class="span1">静谧论坛</span>|
+			<span class="span1">网站服务</span>
+		</p>
+	</div>
+	<div id="main">
+		<div id="register">
+			<h3>用户注册</h3>
+			<p>
+				<label for="username" class="label">用户名：</label>
+				<input type="text" placeholder="会员账户名、登录名" name="username" id="username" class="input" /><i></i>
+				<em>用户名支持中文、字母、数字的组合，2-20个字符</em>
+			</p>
+			<p>
+				<label for="password">登录密码：</label>
+				<input type="password" placeholder="建议至少使用两种字符组合" name="password" id="password" class="input" /><i></i>
+				<em>建议字母、数字和符号至少使用两种字符组合，6-20个字符</em>
+			</p>
+			<p>
+				<label for="cfpassword">重复密码：</label>
+				<input type="password" placeholder="请再次输入密码" name="password" id="cfpassword" class="input"><i></i>
+				<em>重复输入和上面一致的密码</em>
+			</p>
+			<p>
+				<label for="token" class="label">验证码：</label>
+				<input type="text" placeholder="请输入验证码" name="token" id="token" class="input"><i></i>
+				<img src="#" title="点击更换验证码" id="imgyz">
+				<em>验证码不区分大小写</em>
+				<span id="imggh">点击图片更换验证码</span>
+			</p>
+			<p>
+				<span>已拥有用户名，请<a href="login.html" id="dlbtn">登录</a></span>
+			</p>
+			<p id="zcbut"><span>注册</span></p>
+		</div>
+	</div>
+	<div id="footer">
+		<span>Copyright © 2016  静谧网</span>
+	</div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>静谧网-给生活留一片净土</title>
+	<script src="js/home/loding.js" defer="defer"></script>
+	<link rel="stylesheet" href="css/home/pace-theme-center-atom.css"> 
+	<link rel="stylesheet" href="css/home/index.css">
+</head>
+<body>
+	<div id="header">
+		<p class="leftFloat other">
+			<span id="collect">☆ 收藏</span>
+			<span id="er_code"><img src="img/weixin.gif" alt="">二维码</span>
+			<a href="http://www.jingmi.date">静谧首页</a>
+		</p>
+		<div id="code"><img src="img/2_1.gif"></div>
+		<p class="login rightFloat" id="headp">
+			<span class="span">
+				<b id="username"></b><i id="io"></i><a href="login.html?data=index" id="login_"></a>
+			</span>|
+			<span class="span1"><a href="register.html">免费注册</a></span>|
+			<span class="span1">个人中心</span>|
+			<span class="span1"><a href="http://localhost:8080/bbs-web/BBS.html">静谧论坛</a></span>|
+			<span class="span1">网站服务</span>
+		</p>
+	</div>
+	<div id="main">
+		<img id="img" src="img/home/8.jpg">
+		<div id="rv">
+			<div id="nav" class="clear">
+				<div id="logo" class="leftFloat">
+					<img src="img/jingmi.png" />
+				</div>
+				<div id="navigation" class="leftFloat">
+					<ul id="navigation_nav">
+						<li><a href="http://www.jingmi.date">首页</a></li>
+						<li>计时</li>
+						<li><a href="#cover">意境</a></li>
+						<li>家园</li>
+						<li><a href="#">音乐</a></li>
+						<li><a href="http://localhost:8080/bbs-web/BBS.html">论坛</a></li>
+					</ul>
+				</div>
+			</div>		
+			<div id="content" class="clear">
+				<div id="contentLeft" class="leftFloat">
+					<h1>欢迎来到静谧家园</h1>
+					<p id="time"></p>
+					<div></div>
+					<span id="matter">
+						<em id="change" class="rightFloat" style="background:url('img/login_bg/refer.png') 14px 2px no-repeat;">换一条</em>
+						<em class="clear">每日寄语：</em>
+						<em id="clcent"></em>
+					</span>
+				</div>
+				<div id="contentCenter" class="leftFloat">
+					<div id="countDown">
+						<p>
+							<span></span>
+							<span></span>
+							<span></span>
+						</p>
+					</div>
+					<p id="con_btn">开始计时</p>
+				</div>
+				<div id="contentRight" class="leftFloat">
+					<p id="search" class="rightFloat">
+						<input type="text" name="musicName" id="musicName" placeholder="音乐、歌手"/><span style="background: url('img/login_bg/span.png') no-repeat 0 4px;" id="rSearch">搜索音乐</span>
+					</p>
+					<div id="contentRight_text">
+						<div id="hide" class="clear">显示</div>
+						<div id="musicText">
+							<p style="background:url('img/login_bg/refer.png') 1px 0px no-repeat;">换一批</p>
+							<ul id="music_list">
+								<li><img src="img/login_bg/note.png"><span></span><strong></strong><em></em></li>
+								<li><img src="img/login_bg/note.png"><span></span><strong></strong><em></em></li>
+								<li><img src="img/login_bg/note.png"><span></span><strong></strong><em></em></li>
+								<li><img src="img/login_bg/note.png"><span></span><strong></strong><em></em></li>
+								<li><img src="img/login_bg/note.png"><span></span><strong></strong><em></em></li>
+							</ul>
+						</div>
+						<div id="textText">
+							<p></p>
+							<audio controls src="music/20160512008.mp3"></audio>
+						</div>
+					</div>
+				</div>
+				<div id="contentFooter" class="clear">
+					<div id="cover"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<span>Copyright © 2016  静谧网</span>
+	</div>
+	<div id="mask"></div>
+	<div id="timer">
+		<div>X</div>
+		<p>计时（Timer）</p>
+		<ul>
+			<li>1分钟 （1 minute）</li>
+			<li>2分钟（2 minute）</li>
+			<li>5分钟（5 minute）</li>
+			<li>10分钟（10 minute）</li>
+			<li>15分钟（15 minute）</li>
+			<li>20分钟（20 minute）</li>
+			<li>25分钟（25 minute）</li>
+			<li>30分钟（30 minute）</li>
+			<li>45分钟（45 minute）</li>
+			<li>1小时（1 hour）</li>
+		</ul>
+	</div>
+	<div id="prompt">
+		<h1>提示</h1>
+		<p>当前浏览器不支持此操作，请使用 Ctrl+D 收藏静谧网！</p>
+		<p><span>关闭</span></p>
+	</div>
+	<div id="end">
+		<h1>End of the timing</h1>
+		<div class="leftFloat" id="lFt"><span>计时结束</span></div>
+		<div class="rightFloat" id="rFt">
+			<p>努力开始工作，少年！</p>
+			<span>好的</span>
+		</div>
+	</div>
+    <script src="js/home/index.js" defer="defer"></script>
+    <script src="js/home/none.js" defer="defer"></script> 
+</body>
+</html>
